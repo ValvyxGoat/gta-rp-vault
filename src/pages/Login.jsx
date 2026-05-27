@@ -107,7 +107,7 @@ export default function Login() {
               ) : (
                 <>
                   <Lock className="w-4 h-4" />
-                  Accéder au Vault
+                  Accéder aux coffres
                 </>
               )}
             </button>
