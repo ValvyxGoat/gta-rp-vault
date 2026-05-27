@@ -60,8 +60,8 @@ export default function Login() {
             <Shield className="w-7 h-7 text-accent-red" />
             <div className="absolute inset-0 rounded-2xl shadow-glow-red opacity-50" />
           </div>
-          <h1 className="font-display text-5xl text-text-primary tracking-widest">VAULT</h1>
-          <p className="text-text-secondary text-xs tracking-[0.3em] uppercase mt-1">Système de Gestion Criminelle</p>
+          <h1 className="font-display text-5xl text-text-primary tracking-widest">BMB Coffres</h1>
+          <p className="text-text-secondary text-xs tracking-[0.3em] uppercase mt-1"></p>
         </div>
 
         {/* Card */}
