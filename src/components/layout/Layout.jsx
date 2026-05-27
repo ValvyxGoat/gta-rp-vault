@@ -34,8 +34,8 @@ export default function Layout() {
             <Shield className="w-4 h-4 text-accent-red" />
           </div>
           <div>
-            <span className="font-display text-xl tracking-widest text-text-primary">VAULT</span>
-            <p className="text-[10px] text-text-muted leading-none mt-0.5">RP Management</p>
+            <span className="font-display text-xl tracking-widest text-text-primary">BMB</span>
+            <p className="text-[10px] text-text-muted leading-none mt-0.5"></p>
           </div>
         </div>
 
@@ -82,7 +82,7 @@ export default function Layout() {
       <header className="md:hidden fixed top-0 left-0 right-0 z-50 bg-surface border-b border-border px-4 h-14 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Shield className="w-5 h-5 text-accent-red" />
-          <span className="font-display text-2xl tracking-widest">VAULT</span>
+          <span className="font-display text-2xl tracking-widest">BMB</span>
         </div>
         <button onClick={() => setMobileOpen(v => !v)} className="btn-ghost p-2">
           {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
